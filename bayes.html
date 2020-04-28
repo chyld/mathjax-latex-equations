@@ -3,14 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>MathJax example</title>
+  <title>Naive Bayes</title>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <link rel="stylesheet" type="text/css" href="bayes.css">
 </head>
 <body>
-<p>
-  $$y=mx + b + \beta_3^2 - 9x \alpha2 + 3x -2 \gamma9$$
-</p>
-</body>
+  <p>
+    Bayes Theorem
+    $$P(A|B) = \frac{P(B|A)P(A)}{P(B)}$$
+  </p>
+  <p>
+    Shannon Entropy
+    $$H(x) = - \sum_{i=1}^{n} p_i log_b(p_i)$$
+  </p>
+  <p>
+    Priors
+    $$P(class_i) = \frac{\# docs \, of \, class_i}{total \, \# of \, docs}$$
+  </p>
+  <p>
+    Likelihood
+    $$P(word_i|class_i) = \frac{\# of \, word_i \, in \, class_i}{total \, \# of \, words \, in \, class_i}$$
+  </p>
+  </body>
 </html>
